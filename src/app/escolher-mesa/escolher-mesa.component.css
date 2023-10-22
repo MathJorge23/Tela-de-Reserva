@@ -1,0 +1,12 @@
+.list-unstyled {
+  display: inline-block;
+  background-color: bisque;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+li {
+  padding: 5px 5px;
+}

@@ -1,0 +1,51 @@
+.calendario {
+  width: 300px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.calendario-header {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.mes {
+  font-size: 20px;
+}
+
+.ano {
+  font-size: 16px;
+}
+
+.dias-semana {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+}
+
+.dia {
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.dia-vazio {
+  width: 30px;
+  height: 30px;
+}
+
+.dias-mes {
+  display: grid;
+  grid-template-columns: repeat(7, 30px);
+  gap: 2px;
+  padding: 5px;
+}
+
+/* Estilos adicionais para realçar os fins de semana, por exemplo */
+.dias-mes .dia:nth-child(7n),
+.dias-mes .dia:nth-child(7n-1) {
+  color: #c00;
+}

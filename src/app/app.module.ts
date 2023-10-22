@@ -4,11 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
+import { CalendarioComponent } from './calendario/calendario.component';
+import { DescricaoComponent } from './descricao/descricao.component';
+import { EscolherMesaComponent } from './escolher-mesa/escolher-mesa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardapioComponent
+    CardapioComponent,
+    CalendarioComponent,
+    DescricaoComponent,
+    EscolherMesaComponent
   ],
   imports: [
     BrowserModule,
